@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    padding: 50px;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+header .logo{
+    width: 160px;
+}
+header .midlle-header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header .midlle-header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-direction: row;
+    gap: 37px;
+}
+header .midlle-header ul li{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+}
+header .midlle-header .green{
+    color: #006D77;
+}
+header .right-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 111px;
+}
+header .right-header .menu-hamburger{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+header .right-header .menu-hamburger span{
+    border: 1px solid black;
+    width: 40px;
+}
+.button-header{
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    background-color: #BEE1E6;
+    padding: 11px 20px;
+}
+.main{
+    background-color: #BEE1E6;
+}
+.main .container{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    justify-content: space-around;
+}
+.main .left-main{
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.stroke-container{
+    background-color: #006D77;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+}
+.main h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+.main p{
+    color: #444444;
+    font-weight: 300;
+}
+.button1, .button2{
+    padding: 21px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.button1{
+    background-color: black;
+    color: white;
+}
+.button2{
+    border: 1px solid #006D77;
+}
+.company .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.img-company{
+    margin-right: 20px;
+}
+.ideas .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.ideas .right-idea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+}
+.right-idea h1{
+    margin: 10px 0;
+    font-size: 33px;
+    font-weight: bold;
+}
+.stroke-container2{
+    background-color: #BEE1E6;
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+}
+p{
+    color: #444444;
+    font-weight: 300;
+    
+}
+.clients-idea{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.client-idea{
+    display: flex;
+    flex-direction: column;
+}
+.client-idea .header-client{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.client-idea img{
+    width: 50px;
+    height: 50px;
+}
+.client-idea h1{
+    font-size: 20px;
+}
+.client-idea p{
+    padding-left: 50px;
+}
+.botton-ideas .container{
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-botton-ideas{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-botton-ideas .client-idea{
+    width: 30%;
+}
+.main-ideas{
+    background-color: #BEE1E6;
+    box-shadow: 0 15px 10px #d9d9d9;
+}
+.main-ideas .container{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-ideas .left-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+.main-ideas .stroke-container2{
+    width: 200px;
+    background-color: #9dc9d1;
+}
+.clients-main-ideas{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.footer .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer ul{
+    list-style: none;
+}
+.div-logo{
+    width: 15%;
+}
+footer{
+    background-color: #006D77;
+    padding: 30px 43%;
+}
+footer p{
+    color: white;
+    font-weight: normal;
+}
